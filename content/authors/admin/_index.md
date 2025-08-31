@@ -49,12 +49,12 @@ profiles:
   - icon: academicons/orcid
     url: https://orcid.org/
 
-Увлечения:
+Hobby:
   - Программирование
   - Игры
   - Соревнование
 
-Образование:
+Education:
   - area: Оператор ЭВМ 4го разряда
     institution: Университетский колледж ОГУ
     date_start: 2020-08-16
@@ -64,7 +64,7 @@ profiles:
     date_start: 2012-09-01
     date_end: 2020-06-25
     
-Работа:
+Work:
   - position: Безработный
     company_name: нету
     company_url: ''
@@ -116,7 +116,7 @@ Languages:
 #   Add/remove as many awards below as you like.
 #   Only `title`, `awarder`, and `date` are required.
 #   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
-Награды:
+Awards:
   - title: Получал стипендию Правительства РФ
     url: https://www.uc.osu.ru/?p=88496
     date: 
