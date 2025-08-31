@@ -66,10 +66,10 @@ Education:
     
 Work:
   - position: Безработный
-    company_name: нету
+    company_name: ''
     company_url: ''
     company_logo: ''
-    date_start: 
+    date_start: ''
     date_end: ''
 
 # Skills
@@ -93,7 +93,7 @@ Skills:
     color: '#eeac02'
     color_border: '#f0bf23'
     items:
-      - name: Прогуливаться
+      - name: Гулять
         description: ''
         percent: 60
         icon: person-simple-walk
@@ -117,10 +117,10 @@ Languages:
 #   Only `title`, `awarder`, and `date` are required.
 #   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
 Awards:
-  - title: Scholarship from Goverment RF
+  - title: Получал стипендию правительства 2023-2024
     url: https://www.uc.osu.ru/?p=88496
-    date: 
-    awarder: Nikita
+    date: 2023-2024
+    awarder: Никита Осипов
     icon: coursera
     summary: |
       
