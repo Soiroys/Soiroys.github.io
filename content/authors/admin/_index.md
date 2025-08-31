@@ -50,9 +50,9 @@ profiles:
     url: https://orcid.org/
 
 interests:
-  - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
+  - Программирование
+  - Игры
+  - Соревнование
 
 education:
   - area: Оператор ЭВМ 4го разряда
