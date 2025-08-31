@@ -54,7 +54,7 @@ profiles:
   - Игры
   - Соревнование
 
-education:
+Образование:
   - area: Оператор ЭВМ 4го разряда
     institution: Университетский колледж ОГУ
     date_start: 2020-08-16
@@ -72,7 +72,7 @@ education:
     date_start: 
     date_end: ''
 
-# Навыки
+# Skills
 # Add your own SVG icons to `assets/media/icons/`
 skills:
   - name: Технические навыки
