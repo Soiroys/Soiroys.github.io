@@ -55,21 +55,15 @@ interests:
   - Information Retrieval
 
 education:
-  - area: PhD Artificial Intelligence
-    institution: Stanford University
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+  - area: Оператор ЭВМ 4го разряда
+    institution: Университетский колледж ОГУ
+    date_start: 2020-08-16
+    date_end: 2024-06-10
+  - area: Среднее образование
+    institution: Школа №5 города Оренбург
+    date_start: 2012-09-01
+    date_end: 2020-06-25
     summary: |
-      Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
-    button:
-      text: 'Read Thesis'
-      url: 'https://example.com'
-  - area: MEng Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      GPA: 3.8/4.0
 
       Courses included:
       - lorem ipsum dolor sit amet, consectetur adipiscing elit
@@ -184,6 +178,6 @@ awards:
       Object-oriented programming (OOP) lets you specify relationships between functions and the objects that they can act on, helping you manage complexity in your code. This is an intermediate level course, providing an introduction to OOP, using the S3 and R6 systems. S3 is a great day-to-day R programming tool that simplifies some of the functions that you write. R6 is especially useful for industry-specific analyses, working with web APIs, and building GUIs.
 ---
 
-## About Me
+## Обо мне
 
 Осипов Никита Александрович, ученик группы НКАбд-04-24, делаю индивидуальный проект по предмету Архитектура компьютеров и операционные системы. Раздел "Операционные системы"
