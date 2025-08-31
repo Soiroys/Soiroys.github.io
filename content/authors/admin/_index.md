@@ -117,10 +117,10 @@ Languages:
 #   Only `title`, `awarder`, and `date` are required.
 #   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
 Awards:
-  - title: Получал стипендию Правительства РФ
+  - title: Scholarship from Goverment RF
     url: https://www.uc.osu.ru/?p=88496
     date: 
-    awarder: Coursera
+    awarder: Nikita
     icon: coursera
     summary: |
       
