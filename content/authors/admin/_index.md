@@ -64,6 +64,14 @@ Education:
     date_start: 2012-09-01
     date_end: 2020-06-25
 
+Work:
+  - position: Безработный
+    company_name: ''
+    company_url: ''
+    company_logo: ''
+    date_start: ''
+    date_end: ''
+
     
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
