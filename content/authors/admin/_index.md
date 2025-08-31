@@ -112,7 +112,7 @@ Languages:
 Awards:
   - title: Получал стипендию правительства 2023-2024
     url: https://www.uc.osu.ru/?p=88496
-    date: 2023-2024
+    date: 
     awarder: Никита Осипов
     icon: coursera
     summary: |
