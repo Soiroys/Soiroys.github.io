@@ -75,7 +75,7 @@ profiles:
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
 skills:
-  - name: Технические навыки
+  - name: Навыки
     items:
       - name: Слабое знание языков программирования
         description: ''
@@ -106,7 +106,7 @@ skills:
         percent: 100
         icon: camera
 
-Языки:
+Languages:
   - name: Английский
     percent: 20
   - name: Немецкий
