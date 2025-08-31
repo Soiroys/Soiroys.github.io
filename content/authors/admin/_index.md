@@ -63,25 +63,18 @@ Education:
     institution: Школа №5 города Оренбург
     date_start: 2012-09-01
     date_end: 2020-06-25
-    
-Work:
-  - position: Безработный
-    company_name: ''
-    company_url: ''
-    company_logo: ''
-    date_start: ''
-    date_end: ''
 
+    
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
 Skills:
   - name: Навыки
     items:
-      - name: Слабое знание языков программирования
+      - name: Программирование
         description: ''
         percent: 5
         icon: code-bracket
-      - name: Работа с документами и базами
+      - name: Документация
         description: ''
         percent: 100
         icon: chart-bar
