@@ -3,7 +3,7 @@
 title: Осипов Никита Александрович
 
 # Name pronunciation (optional)
-name_pronunciation: Осипов Никита Александрович
+name_pronunciation:
 
 # Full name Осипов Н.А.
 first_name: Никита
@@ -186,4 +186,4 @@ awards:
 
 ## About Me
 
-Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+Осипов Никита Александрович, ученик группы НКАбд-04-24, делаю индивидуальный проект по предмету Архитектура компьютеров и операционные системы. Раздел "Операционные системы"
