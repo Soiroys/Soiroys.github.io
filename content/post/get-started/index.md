@@ -15,7 +15,6 @@ tags:
   - OTUS
 ---
 
-Welcome 👋
 
 {{< toc mobile_only=true is_open=true >}}
 
