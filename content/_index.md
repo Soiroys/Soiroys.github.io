@@ -1,6 +1,6 @@
 ---
 # Leave the homepage title empty to use the site title
-title: ""
+title: "Soiroys"
 date: 2022-10-24
 type: landing
 
@@ -16,8 +16,8 @@ sections:
       text: ""
       # Show a call-to-action button under your biography? (optional)
       button:
-        text: Download CV
-        url: uploads/resume.pdf
+        text: Github
+        url: https://github.com/Soiroys/Soiroys.github.io/tree/main
     design:
       css_class: dark
       # Avatar customization
