@@ -1,138 +1,61 @@
 ---
-title: 🧠 Sharpen your thinking with a second brain
+title: Язык разметки Markdown
 summary: Create a personal knowledge base and share your knowledge with your peers.
-date: 2023-10-26
+date: 2025-09-01
 authors:
-  - admin
+  - Иван Стуков
 tags:
-  - Second Brain
   - Markdown
 image:
   caption: 'Image credit: [**Unsplash**](https://unsplash.com)'
 ---
 
-Create a personal knowledge base and share your knowledge with your peers.
+## Markdown 
 
-Hugo Blox web framework empowers you with one of the most flexible note-taking capabilities out there.
+Язык разметки Markdown широко распространён в вебе. На нём пишут readme-файлы и документацию, а его принципы работы используют для оформления сообщений и публикаций в мессенджерах и социальных сетях.
+Markdown легко конвертируется в HTML, открывается во всех текстовых редакторах и легко читается даже в виде исходного кода. При этом писать на нём куда проще, чем на других языках разметки: HTML, XML, TeX и так далее.
 
-Create a powerful knowledge base that works on top of a local folder of plain text Markdown files.
+## Диалекты и редакторы
 
-Use it as your second brain, either publicly sharing your knowledge with your peers via your website, or via a private GitHub repository and password-protected site just for yourself.
+Базовым Markdown уже мало кто пользуется. Зато у него существуют спецификации и диалекты, которые добавляют в язык новые функции: встраивание HTML-тегов, создание таблиц и чекбоксов, зачёркивание текста, разные варианты переноса строки.
 
-## Mindmaps
+Разные редакторы Markdown могут поддерживать или не поддерживать часть новых функций — учтите это при выборе платформы, на которой будете работать.
 
-Hugo Blox supports a Markdown extension for mindmaps.
+Самый распространённый Markdown — диалект GitHub Flavored Markdown, основанный на спецификации CommonMark. В этой статье мы пользуемся редактором Markdown Editor, который поддерживает практически все инструменты этой парочки (кроме чекбоксов).
 
-With this open format, can even edit your mindmaps in other popular tools such as Obsidian.
+## Параграфы и разрывы строк (paragraphs and line breaks)
 
-Simply insert a Markdown code block labelled as `markmap` and optionally set the height of the mindmap as shown in the example below.
+Чтобы поделить текст на параграфы, между ними нужно оставить пустую строку. Строка считается пустой, даже если в ней есть пробелы и табуляции. Если же строки находятся рядом, то они автоматически склеиваются в одну.
 
-Mindmaps can be created by simply writing the items as a Markdown list within the `markmap` code block, indenting each item to create as many sub-levels as you need:
+Первый параграф
 
-<div class="highlight">
-<pre class="chroma">
-<code>
-```markmap {height="200px"}
-- Hugo Modules
-  - Hugo Blox
-  - blox-plugins-netlify
-  - blox-plugins-netlify-cms
-  - blox-plugins-reveal
-```
-</code>
-</pre>
-</div>
+Второй параграф
+Продолжение второго параграфа
 
-renders as
+![](https://skillbox.ru/upload/setka_images/11575109022023_5c20dcbcfbab07ab6c2df7e27444d5ac2afca569.png)
 
-```markmap {height="200px"}
-- Hugo Modules
-  - Hugo Blox
-  - blox-plugins-netlify
-  - blox-plugins-netlify-cms
-  - blox-plugins-reveal
-```
+Для переноса строки внутри одного параграфа есть три метода:
 
-Anh here's a more advanced mindmap with formatting, code blocks, and math:
+- поставить в конце строки два или больше пробела   ;
+- поставить в конце строки обратную косую черту \;
+- использовать HTML-тег <br>.
 
-<div class="highlight">
-<pre class="chroma">
-<code>
-```markmap
-- Mindmaps
-  - Links
-    - [Hugo Blox Docs](https://docs.hugoblox.com/)
-    - [Discord Community](https://discord.gg/z8wNYzb)
-    - [GitHub](https://github.com/HugoBlox/hugo-blox-builder)
-  - Features
-    - Markdown formatting
-    - **inline** ~~text~~ *styles*
-    - multiline
-      text
-    - `inline code`
-    -
-      ```js
-      console.log('hello');
-      console.log('code block');
-      ```
-    - Math: $x = {-b \pm \sqrt{b^2-4ac} \over 2a}$
-```
-</code>
-</pre>
-</div>
+Перенос с помощью пробелов  
+Перенос с помощью обратного слеша\
+Перенос с помощью тега <br> Последняя строка
 
-renders as
+![](https://skillbox.ru/upload/setka_images/11575109022023_278cadb5c5a600fd354bbb4a32acf34407bf98f0.png)
 
-```markmap
-- Mindmaps
-  - Links
-    - [Hugo Blox Docs](https://docs.hugoblox.com/)
-    - [Discord Community](https://discord.gg/z8wNYzb)
-    - [GitHub](https://github.com/HugoBlox/hugo-blox-builder)
-  - Features
-    - Markdown formatting
-    - **inline** ~~text~~ *styles*
-    - multiline
-      text
-    - `inline code`
-    -
-      ```js
-      console.log('hello');
-      console.log('code block');
-      ```
-    - Math: $x = {-b \pm \sqrt{b^2-4ac} \over 2a}$
-```
+## Заголовки (headings)
+В синтаксисе Markdown есть шесть уровней заголовков: от H1 (самого большого) до H6 (самого маленького). Для их выделения используют решётки #, при этом есть несколько тонкостей:
 
-## Highlighting
-
-<mark>Highlight</mark> important text with `mark`:
-
-```html
-<mark>Highlighted text</mark>
-```
-
-## Callouts
-
-Use [callouts](https://docs.hugoblox.com/reference/markdown/#callouts) (aka _asides_, _hints_, or _alerts_) to draw attention to notes, tips, and warnings.
-
-By wrapping a paragraph in `{{%/* callout note */%}} ... {{%/* /callout */%}}`, it will render as an aside.
-
-```markdown
-{{%/* callout note */%}}
-A Markdown aside is useful for displaying notices, hints, or definitions to your readers.
-{{%/* /callout */%}}
-```
-
-renders as
-
-{{% callout note %}}
-A Markdown aside is useful for displaying notices, hints, or definitions to your readers.
-{{% /callout %}}
-
-Or use the `warning` callout type so your readers don't miss critical details:
-
-{{% callout warning %}}
-A Markdown aside is useful for displaying notices, hints, or definitions to your readers.
-{{% /callout %}}
-
-## Did you find this page helpful? Consider sharing it 🙌
+- решётки можно ставить как перед заголовком, так и с двух сторон от него (на уровень заголовка влияют только те #, которые находятся перед ним);
+- количество решёток соответствует уровню заголовка: одна для первого уровня, две для второго и так далее;
+- между решёткой и текстом ставится пробел.
+"# Заголовок первого уровня"
+"## Заголовок второго уровня"
+"### Заголовок третьего уровня"
+"#### Заголовок четвёртого уровня"
+"##### Заголовок пятого уровня"
+"###### Заголовок шестого уровня"
+![](https://skillbox.ru/upload/setka_images/11575109022023_bd473197c461193ea9b6d317f4c236910d065887.png)
