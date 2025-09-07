@@ -5,11 +5,45 @@ links:
   - type: site
     url: https://github.com/pandas-dev/pandas
 tags:
-  - Hugo
-  - HugoBlox
   - Markdown
 ---
 
-Flexible and powerful data analysis / manipulation library for Python, providing labeled data structures.
+pandas — программная библиотека на языке Python для обработки и анализа данных. Работа pandas с данными строится поверх библиотеки NumPy, являющейся инструментом более низкого уровня. Предоставляет специальные структуры данных и операции для манипулирования числовыми таблицами и временны́ми рядами. Название библиотеки происходит от эконометрического термина «панельные данные», используемого для описания многомерных структурированных наборов информации. pandas распространяется под новой лицензией BSD.
 
+## Область применения
+Основная область применения — обеспечение работы в рамках среды Python не только для сбора и очистки данных, но для задач анализа и моделирования данных, без переключения на более специфичные для статобработки языки (такие, как R и Octave).
+
+Также активно ведётся работа по реализации «родных» категориальных типов данных.
+
+Пакет прежде всего предназначен для очистки и первичной оценки данных по общим показателям, например среднему значению, квантилям и так далее; статистическим пакетом он в полном смысле не является, однако наборы данных типов DataFrame и Series применяются в качестве входных в большинстве модулей анализа данных и машинного обучения (SciPy, Scikit-Learn и других).
 <!--more-->
+
+Примеры использования
+
+Кривые
+
+import pandas as pd
+import matplotlib.pyplot as plt
+import numpy as np
+
+df = pd.DataFrame(np.random.randn(100, 5), columns=list('ABCDE'))
+df=df.cumsum() # Return cumulative sum over a DataFrame or Series axis
+df.plot()
+plt.show()
+Диаграмма
+
+df = pd.DataFrame(np.random.rand(10, 5), columns=list('ABCDE'))
+df.plot.bar(stacked=True)
+plt.show()
+
+График
+
+df = pd.DataFrame(np.random.rand(7, 5), columns=list('ABCDE'))
+df.plot.box()
+plt.show()
+
+Гистограмма
+
+data = pd.Series(np.random.normal(size=100))
+data.hist(grid=False)
+plt.show()
