@@ -39,7 +39,7 @@ sections:
       title: 'Сайт'
       subtitle: ''
       text: |-
-    "Я использую этот сайт как индивидуальный проект"
+              Site used how individual project
     design:
       columns: '1'
   - block: collection
