@@ -1,5 +1,5 @@
 ---
-title: 'An example conference paper'
+title: 'Работа с библиографией'
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
@@ -16,13 +16,13 @@ publishDate: '2017-01-01T00:00:00Z'
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
 # Enter a publication type from the CSL standard.
-publication_types: ['paper-conference']
+publication_types: ['Записка']
 
 # Publication name and optional abbreviated publication name.
 publication: In *Hugo Blox Builder Conference*
 publication_short: In *ICW*
 
-abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
+abstract: Краткий курс.
 
 # Summary. An optional shortened abstract.
 summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
@@ -40,23 +40,14 @@ hugoblox:
 
 # Custom links
 links:
-  - type: pdf
-    url: ""
-  - type: code
-    url: https://github.com/HugoBlox/hugo-blox-builder
-  - type: dataset
-    url: https://github.com/HugoBlox/hugo-blox-builder
-  - type: slides
-    url: https://www.slideshare.net/
   - type: source
-    url: https://github.com/HugoBlox/hugo-blox-builder
-  - type: video
-    url: https://youtube.com
+    url: https://github.com/Soiroys/Soiroys.github.io
+
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/pLCdAaMFLTE)'
+  caption: 'Image credit: [**Unsplash**](https://library.fa.ru/img/bibmen.jpg)'
   focal_point: ''
   preview_only: false
 
@@ -76,12 +67,27 @@ projects:
 slides: ""
 ---
 
-{{% callout note %}}
-Click the _Cite_ button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-{{% /callout %}}
+## Библиографические менеджеры
 
-{{% callout note %}}
-Create your slides in Markdown - click the _Slides_ button to check out the example.
-{{% /callout %}}
+[.bib](https://joostkremers.github.io/ebib/)
+## Примеры оформления библиографических ссылок
+Оформление библиографических ссылок (подстрочных, внутритекстовых и затекстовых) регулируется положениями ГОСТ Р 7.0.5-2008 «Библиографическая ссылка. Общие требования и правила составления» (введен в действие с 1 января 2009 г.).
+ 
+По месту расположения в работе библиографические ссылки могут быть:
 
-Add the publication's **full text** or **supplementary notes** here. You can use rich formatting such as including [code, math, and images](https://docs.hugoblox.com/content/writing-markdown-latex/).
+- внутритекстовыми, помещенными в основном тексте работы;
+
+- подстрочными, вынесенными из основного текста работы вниз полосы работы (в сноску) /сноска/
+
+- затекстовыми, вынесенными за текст всей работы или ее части (в выноску) /квадратные скобки/
+
+
+Обычно в учебных научных квалификационных работах внутритекстовые ссылки не применяются.
+
+Подстрочная библиографическая ссылка (сноска)
+
+- нумеруется арабскими цифрами
+- нумерация сплошная или в пределах раздела работы
+- не забывайте ставить номер страницы, на которой находится цитируемая информация
+- если прямой цитаты нет, то пишется диапазон страниц, чтобы читающий смог ознакомиться с конкретной упоминаемой информацией
+
